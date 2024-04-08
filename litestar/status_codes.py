@@ -110,14 +110,23 @@ HTTP_411_LENGTH_REQUIRED: Final = 411
 HTTP_412_PRECONDITION_FAILED: Final = 412
 """HTTP status code 'Precondition Failed'"""
 
+HTTP_413_CONTENT_TOO_LARGE: Final = 413
+"""HTTP status code 'Content Too Large'"""
+
 HTTP_413_REQUEST_ENTITY_TOO_LARGE: Final = 413
 """HTTP status code 'Request Entity Too Large'"""
+
+HTTP_414_URI_TOO_LONG: Final = 414
+"""HTTP status code 'URI Too Long'"""
 
 HTTP_414_REQUEST_URI_TOO_LONG: Final = 414
 """HTTP status code 'Request URI Too Long'"""
 
 HTTP_415_UNSUPPORTED_MEDIA_TYPE: Final = 415
 """HTTP status code 'Unsupported Media Type'"""
+
+HTTP_416_RANGE_NOT_SATISFIABLE: Final = 416
+"""HTTP status code 'Range Not Satisfiable'"""
 
 HTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE: Final = 416
 """HTTP status code 'Requested Range Not Satisfiable'"""
@@ -130,6 +139,9 @@ HTTP_418_IM_A_TEAPOT: Final = 418
 
 HTTP_421_MISDIRECTED_REQUEST: Final = 421
 """HTTP status code 'Misdirected Request'"""
+
+HTTP_422_UNPROCESSABLE_CONTENT: Final = 422
+"""HTTP status code 'Unprocessable Content'"""
 
 HTTP_422_UNPROCESSABLE_ENTITY: Final = 422
 """HTTP status code 'Unprocessable Entity'"""
